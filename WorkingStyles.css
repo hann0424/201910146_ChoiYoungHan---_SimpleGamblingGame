@@ -1,0 +1,45 @@
+  body {
+        background-image: url('image.jpg');
+        background-size: cover;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+      }
+      
+	  .workingContainer{
+		display: flex;
+		flex-wrap: wrap;
+	  }
+	  
+	  .workingSpace {
+        margin: 20 auto;
+        width: 600px;
+		height: 700px;
+        min-height: 600px;
+        border: 5px red solid;
+		white-space: pre-wrap;
+		}
+	
+	  .buttonSpace {	
+        margin-left: 20px;
+		align-items: center;
+		border: 4px blue solid;
+        width: 170px;
+		height: 500px;       
+      }
+
+      .workingText {
+		font-family: 'Courier New', monospace;
+        font-size: 28px;
+      }
+	  
+      .btn {
+        padding: 10px;
+        font-size: 20px;
+        font-style: italic;
+        background-color: rgb(218, 219, 218);
+        margin: 15px; 
+      }
+	  
+	  .btn:hover {
+		background-color: rgb(55, 228, 49)}
